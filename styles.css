@@ -93,7 +93,7 @@ html body{
   position: relative;
   display: flex;
   padding-left: 2rem;
-  gap: 15px;
+  gap: 2rem;
   align-items: center;
   justify-content: center;
   /* border: 1px solid black; */
@@ -103,8 +103,8 @@ html body{
 
 
 #insurance  #bank-logo  .img-container{
-  height: 200px;
-  width: 200px;
+  height: 220px;
+  width: 300px;
   border-radius: 10px;
   
  }
@@ -112,16 +112,16 @@ html body{
 
 #credit-cards  #bank-logo  .img-container {
   position: relative;
-  height: 120px;
-  width: 160px;
+  height: 200px;
+  width: 250px;
   /* border: 2px solid rgba(100, 100, 100, 0.418); */
   border-radius: 10px;
 }
 
 #Loans #bank-logo  .img-container {
   position: relative;
-  height: 120px;
-  width: 160px;
+  height: 200px;
+  width: 250px;
   /* border: 2px solid rgba(100, 100, 100, 0.418); */
   border-radius: 10px;
 }
@@ -260,7 +260,7 @@ html body{
 
 #footer-div > h5 {
   text-align: center;
-  font-size: 32px;
+  font-size: 2rem;
   font-family: Inter;
   color: white;
   font-weight: 400;
