@@ -17,13 +17,13 @@ html body{
 
 #navbar{
   height: 70px;
-  /* border: 1px solid black; */
+  /* border: 1px solid red; */
   width: 100%;
   padding: 15px 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1842D4;
+  background-image: linear-gradient(to right, #5B73CA , #0D226E);
   margin-bottom: 50px;
 }
 
@@ -47,6 +47,8 @@ html body{
   gap: 8px;
 }
 
+
+/* mobile view navbar  */
 #navbar #nav-toggler{
   display: none;
 }
@@ -64,7 +66,7 @@ html body{
 #insurance {
   position: relative;
   height: 100%;
-  /* width: 100%; */
+  width: 100%;
   /* border: 1px solid black; */
   
 }
@@ -79,62 +81,62 @@ html body{
   margin-bottom: 5rem;
 }
 
-#slider{
+/* #slider{
   width: 100%;
   display: flex;
   margin: auto;
   align-items: center;
   position: relative;
-  /* border: 1px solid red; */
-  /* overflow: hidden; */
-}
+  border: 1px solid red;
+  overflow: hidden;
+} */
 
-#bank-logo {
+/* #bank-logo {
   position: relative;
   display: flex;
   padding-left: 2rem;
   gap: 2rem;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   
-}
+} */
 
 
 
-#insurance  #bank-logo  .img-container{
+/* #insurance  #bank-logo  .img-container{
   height: 220px;
   width: 300px;
   border-radius: 10px;
   
- }
+ } */
 
 
-#credit-cards  #bank-logo  .img-container {
+/* #credit-cards  #bank-logo  .img-container {
   position: relative;
   height: 200px;
   width: 250px;
-  /* border: 2px solid rgba(100, 100, 100, 0.418); */
+  border: 2px solid rgba(100, 100, 100, 0.418);
   border-radius: 10px;
-}
+} */
 
-#Loans #bank-logo  .img-container {
+/* #Loans #bank-logo  .img-container {
   position: relative;
   height: 200px;
   width: 250px;
-  /* border: 2px solid rgba(100, 100, 100, 0.418); */
+  border: 2px solid rgba(100, 100, 100, 0.418);
   border-radius: 10px;
-}
+} */
 
 
 
 
-.img-container > img {
-  /* padding: 10px; */
+/* .img-container > img {
+  padding: 10px;
   height: 100%;
   width: 100%;
   border-radius: 5px;
-}
+} */
 
 #credit-cards,
 #Loans,
@@ -148,7 +150,7 @@ html body{
   
 }
 
-#slider > #prev {
+/* #slider > #prev {
   height: 100%;
   display: flex;
   justify-content: center;
@@ -159,12 +161,12 @@ html body{
   position: absolute;
   cursor: pointer;
   border-radius: 2px;
-  /* background-color: rgba(143, 137, 137, 0.199); */
+  background-color: rgba(143, 137, 137, 0.199);
   color: black;
   z-index: 2;
-}
+} */
 
-#slider > #next {
+/* #slider > #next {
   height: 90%;
   display: flex;
   justify-content: center;
@@ -179,13 +181,13 @@ html body{
   background-color: rgba(19, 18, 18, 0.486);
   color: white;
   z-index: 2;
-}
+} */
 
-#slider > #next:hover{
+/* #slider > #next:hover{
   
   background-color: rgba(247, 247, 247, 0.486);
   color: black;
-}
+} */
 
 
 /* this is modal logo section css  */
@@ -280,7 +282,7 @@ html body{
     justify-content:start;
     gap: 1rem;
     flex-direction: row-reverse;
-    align-items: start;
+    align-items: center;
     /* border: 2px solid red; */
     position: relative;
   }
@@ -290,12 +292,11 @@ html body{
     display: none;
   }
 
+  /* mobile view navbar  */
   #navbar #nav-toggler{
     display: flex;
     flex-direction: column;
-    /* width: 100%; */
-    /* position: absolute; */
-    /* border: 1px solid white; */
+   
   }
 
   #toggle-btn{
@@ -313,17 +314,38 @@ html body{
     display: flex;
     flex-direction: column;
     text-align: start;
-    gap: 5px;
-    padding-left: 5px;
-    /* position: absolute; */
-    /* background-color: black; */
-    /* width: 100%; */
+    gap: 0.5rem;
+    padding-left: 28px;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    background-color: whitesmoke ;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 100%;
+    z-index: 2;
+    
     /* display: none; */
-    /* user-select: none; */
+    user-select: none;
     
   }
 
-  /* #toggle-navitems a{
+  #toggle-navitems a{
     color: black;
-  } */
+    font-weight: 500;
+    padding: 0.5rem;
+    
+  }
+
+  #toggle-navitems a:hover{
+    background-image: linear-gradient(to right, #5B73CA , #0D226E);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    
+  }
+
+
+
 }

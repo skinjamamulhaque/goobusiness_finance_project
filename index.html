@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <title>Home</title>
+      <!-- all css  -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- main page swiper sectio css  -->
+    <link rel="stylesheet" href="css/mainSection.css">
+
+    <!-- remix icon cdn for all the icons -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
-    <script type="module" src="script.js"></script>
   </head>
   <body>
 
@@ -41,131 +45,117 @@
     </nav>
    
     <main id="main-div">
-      <!-- Bank credit card section -->
-      <section id="credit-cards" class="slider-section">
+      <!-- Bank credit card section carousels -->
+      <section id="credit-cards" >
       
         <h2>Bank credit card </h2>
         
-        <div id="slider">
+        
+
+        <div class="wrapper" id="credit-wrapper">
           <i class="ri-arrow-left-s-line" id="prev"></i>
-          <div id="bank-logo" class="slider ">
-            <div class="img-container">
-              <img src="https://i.pinimg.com/564x/c1/b7/27/c1b727de5cc1504ee262b08a3782c595.jpg" alt="">
-            </div>
-      
-            <div class="img-container">
-              <img src="https://www.logo-designer.co/storage/2017/04/2017-Design-Stack-new-logo-design-State-Bank-of-India.png" alt="">
-            </div>
-            <div class="img-container">
-              <img src="https://static.vecteezy.com/system/resources/previews/020/190/451/original/punjab-national-bank-pnb-bank-logo-free-free-vector.jpg" alt="">
-            </div>
-            <div class="img-container">
-              <img src="https://i.pinimg.com/564x/c1/b7/27/c1b727de5cc1504ee262b08a3782c595.jpg" alt="">
-            </div>
-            <div class="img-container">
-              <img src="https://www.logo-designer.co/storage/2017/04/2017-Design-Stack-new-logo-design-State-Bank-of-India.png" alt="">
-            </div>
-            <div class="img-container">
-              <img src="https://static.vecteezy.com/system/resources/previews/020/190/451/original/punjab-national-bank-pnb-bank-logo-free-free-vector.jpg" alt="">
-            </div>
-            <div class="img-container">
-              <img src="https://www.logo-designer.co/storage/2017/04/2017-Design-Stack-new-logo-design-State-Bank-of-India.png" alt="">
-            </div>
-            <div class="img-container">
-              <img src="https://static.vecteezy.com/system/resources/previews/020/190/451/original/punjab-national-bank-pnb-bank-logo-free-free-vector.jpg" alt="">
-            </div>
-            <div class="img-container">
-              <img src="https://www.logo-designer.co/storage/2017/04/2017-Design-Stack-new-logo-design-State-Bank-of-India.png" alt="">
-            </div>
-      
-          </div>
+          <ul class="carousel" id="credit-carousel">
+            <li class="card">
+              <div class="img"><img src="images/ban credit cards/central.jpg" alt="img" draggable="false"></div>
+              
+            </li>
+            <li class="card">
+              <div class="img"><img src="images/ban credit cards/pnb.jpg" alt="img" draggable="false"></div>
+              
+            </li>
+            <li class="card">
+              <div class="img"><img src="images/ban credit cards/sbi.png" alt="img" draggable="false"></div>
+              
+            </li>
+            <li class="card">
+              <div class="img"><img src="images/ban credit cards/central.jpg" alt="img" draggable="false"></div>
+              
+            </li>
+            <li class="card">
+              <div class="img"><img src="images/ban credit cards/pnb.jpg" alt="img" draggable="false"></div>
+              
+            </li>
+            <li class="card">
+              <div class="img"><img src="images/ban credit cards/sbi.png" alt="img" draggable="false"></div>
+              
+            </li>
+          </ul>
           <i class="ri-arrow-right-s-line" id="next"></i>
         </div>
       
       </section>
       
-      <!-- bank insurance Section -->
+      <!--  insurance section carousels -->
       <section id="insurance" class="slider-section">
       
         <h2>insurance </h2>
-        
-        <div id="slider">
+        <div class="wrapper" id="insurance-wrapper">
           <i class="ri-arrow-left-s-line" id="prev"></i>
-          <div id="bank-logo" class="slider ">
-            <div class="img-container">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQftGa_TYK_wc8xwgC2lusw3cA9sOtAmJfEoenR8xMUeQ&s" alt="">
-            </div>
-      
-            <div class="img-container">
-              <img src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202105/bajaj_allianz_660_110317125652_660_030521103057.jpg?size=1200:675" alt="">
-            </div>
-            <div class="img-container">
-              <img src="https://wpassets.adda247.com/wp-content/uploads/multisite/sites/5/2024/01/10163147/lic-2.jpg" alt="">
-            </div>
-            <div class="img-container">
-              <img src="https://img.etimg.com/thumb/width-1200,height-900,imgsize-59768,resizemode-75,msid-60772546/industry/banking/finance/insure/analjit-in-exploratory-talks-to-merge-birla-sun-and-max-life.jpg" alt="">
-            </div>
-            <div class="img-container">
-              <img src="https://cionews.co.in/wp-content/uploads/2023/11/Article-Main-Image-7.png" alt="">
-            </div>
-            <div class="img-container">
-              <img src="https://etimg.etb2bimg.com/photo/92142828.cms" alt="">
-            </div>
-            <div class="img-container">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/HDFC_ERGO_General_Insurance_Company.svg/1200px-HDFC_ERGO_General_Insurance_Company.svg.png" alt="">
-            </div>
-            <div class="img-container">
-              <img src="https://cionews.co.in/wp-content/uploads/2023/11/Article-Main-Image-7.png" alt="">
-            </div>
-            <div class="img-container">
-              <img src="https://etimg.etb2bimg.com/photo/92142828.cms" alt="">
-            </div>
-      
-          </div>
+          <ul class="carousel" id="insurance-carousel">
+            <li class="card">
+              <div class="img">
+                <img src="images/insurance/bazaz.webp" alt="img" draggable="false">
+              </div>
+              
+            </li>
+            <li class="card">
+              <div class="img"><img src="images/insurance/birla sun life.webp" alt="img" draggable="false"></div>
+              
+            </li>
+            <li class="card">
+              <div class="img"><img src="images/insurance/hdfc.png" alt="img" draggable="false"></div>
+              
+            </li>
+            <li class="card">
+              <div class="img"><img src="images/insurance/icici lombard.png" alt="img" draggable="false"></div>
+              
+            </li>
+            <li class="card">
+              <div class="img"><img src="images/insurance/lic.jpg" alt="img" draggable="false"></div>
+              
+            </li>
+            <li class="card">
+              <div class="img"><img src="images/insurance/92142828.cms" alt="img" draggable="false"></div>
+              
+            </li>
+          </ul>
           <i class="ri-arrow-right-s-line" id="next"></i>
         </div>
-      
+        
       </section>
       
-      <!-- Bnak loan section -->
+      <!-- Bnak loan section carousels -->
       <section id="Loans" class="slider-section">
       
         <h2>loans</h2>
-        
-        <div id="slider">
+        <div class="wrapper" id="loan-wrapper">
           <i class="ri-arrow-left-s-line" id="prev"></i>
-          <div id="bank-logo" class="slider ">
-            <div class="img-container">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvJDhEseeIk2MHeaRf8x1ha373B5eq5GeO-ZItojG0ow&s" alt="">
-            </div>
-      
-            <div class="img-container">
-              <img src="https://www.loanfasttrack.com/blog/wp-content/uploads/2020/06/housing-loan.jpg" alt="">
-            </div>
-            <div class="img-container">
-              <img src="https://img1.exportersindia.com/product_images/bc-full/2019/12/6871181/personal-loan-1577186161-5220681.jpeg" alt="">
-            </div>
-            <div class="img-container">
-              <img src="https://www.dialabank.com/wp-content/uploads/2019/11/nslnls.jpg" alt="">
-            </div>
-            <div class="img-container">
-              <img src="https://www.msmex.in/learn/wp-content/uploads/2022/03/03_SEO2.jpg" alt="">
-            </div>
-           
-            <div class="img-container">
-              <img src="https://img1.exportersindia.com/product_images/bc-full/2019/12/6871181/personal-loan-1577186161-5220681.jpeg" alt="">
-            </div>
-            <div class="img-container">
-              <img src="https://www.dialabank.com/wp-content/uploads/2019/11/nslnls.jpg" alt="">
-            </div>
-            <div class="img-container">
-              <img src="https://www.msmex.in/learn/wp-content/uploads/2022/03/03_SEO2.jpg" alt="">
-            </div>
-            <div class="img-container">
-              <img src="https://static.vecteezy.com/system/resources/previews/020/190/451/original/punjab-national-bank-pnb-bank-logo-free-free-vector.jpg" alt="">
-            </div>
-      
-          </div>
+          <ul class="carousel" id="loan-carousel">
+            <li class="card">
+              <div class="img"><img src="images/loans/bank loans.jpg" alt="img" draggable="false"></div>
+              
+            </li>
+            <li class="card">
+              <div class="img"><img src="images/loans/car loans.jpg" alt="img" draggable="false"></div>
+              
+            </li>
+            <li class="card">
+              <div class="img"><img src="images/loans/housing-loan.jpg" alt="img" draggable="false"></div>
+              
+            </li>
+            <li class="card">
+              <div class="img"><img src="images/loans/housing-loan.jpg" alt="img" draggable="false"></div>
+              
+            </li>
+            <li class="card">
+              <div class="img"><img src="images/loans/personal loans.jpeg" alt="img" draggable="false"></div>
+              
+            </li>
+            <li class="card">
+              <div class="img"><img src="images/loans/car loans.jpg" alt="img" draggable="false"></div>
+              
+            </li>
+          </ul>
           <i class="ri-arrow-right-s-line" id="next"></i>
         </div>
       
@@ -202,9 +192,11 @@
     </footer>
 
     <modal id="logo">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png" alt="">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png" alt="">
     </modal>
 
-    <script src="script.js"></script>
+   
+     <!-- main js -->
+    <script src="js/script.js"></script>    
   </body>
 </html>
