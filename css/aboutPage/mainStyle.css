@@ -1,0 +1,226 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+  --blue: #706FE5;
+  --font-red: #ED5765;
+  --btn-red: #F83A40;
+  --white: #FFFFFF;
+  --black: #171616;
+  --main-bg: #F1F1F1;
+}
+
+*{
+  margin: 0;padding: 0; box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: Poppins;
+  overflow-x: hidden;
+  position: relative;
+  background-color: var(--main-bg);
+  /* padding: 0px 50px; */
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+
+
+
+/* section one styles starts here  */
+main #section1{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding: 2rem 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+#section1 #left-container{
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid black; */
+}
+
+#left-container h5{
+  font-size: 2.2rem;
+  padding-bottom: 1rem;
+}
+#left-container p{
+  font-size: 1.35rem;
+  line-height: 1.6rem;
+  font-weight: 400;
+}
+
+#section1 #right-container{
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid black; */
+}
+
+#right-container img{
+  width: 70%;
+}
+
+/* section one styles Ends here  */
+
+
+/* section two styles Starts here  */
+main #section2{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding: 2rem 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+#section2 #left-container{
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid black; */
+  position: relative;
+}
+
+#left-container img{
+  width: 70%;
+}
+
+#section2 #right-container{
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid black; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#right-container h5{
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+#right-container h6{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#right-container p{
+  font-size: 1rem;
+}
+/* section two styles Ends here  */
+
+
+/* section three styles Starts here  */
+main #section3{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding: 2rem 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+#section3 #left-container{
+  width: 50%;
+  height: 100%;
+  padding-right: 1rem;
+  /* border: 1px solid black; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#section3 #right-container{
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid black; */
+  position: relative;
+}
+
+#right-container img{
+  width: 70%;
+  /* border: 1px solid red; */
+}
+
+#left-container h5{
+  font-size: 2rem;
+}
+
+#left-container h6{
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-bottom: 0.50rem;
+}
+
+#left-container p{
+  font-size: 1rem;
+}
+/* section three styles Starts here  */
+
+
+/* section four styles Starts here  */
+main #section4{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 2rem 5rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+#section4 h5{
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+#section4 p{
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+/* section four styles Starts here  */
+
+
+/* section five styles Starts here  */
+main #section5{
+ height: 100%;
+ width: 100%;
+ position: relative;
+ padding: 2rem 5rem;
+ text-align: center;
+ /* border: 1px solid red; */
+}
+
+#section5 h5{
+  font-size: 2.2rem;
+}
+
+#section5 button{
+  margin-top: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: var(--blue);
+  color: var(--white);
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+/* section five styles Ends here  */

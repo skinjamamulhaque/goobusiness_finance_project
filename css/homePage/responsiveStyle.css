@@ -1,0 +1,417 @@
+/* Import Google font - Poppins */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+  --blue: #706FE5;
+  --font-red: #ED5765;
+  --btn-red: #F83A40;
+  --white: #FFFFFF;
+  --black: #171616;
+  --main-bg: #F1F1F1;
+}
+
+@media screen and (max-width:480px) {
+/* First Section Starts here */
+  #hero-section .hero-container{
+    flex-direction: column;
+    padding: 0px 10px;
+    /* border: 1px solid black; */
+    width: 100%;
+  }
+
+  #hero-section .hero-container #left-container{
+    /* border: 1px solid black; */
+    width: 100%;
+    position: relative;
+    text-align: center;
+    
+  }
+  #hero-section .hero-container #left-container > div{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #hero-section .hero-container #left-container h1{
+    
+    /* position: relative; */
+    /* top: 0; */
+    font-size: 1.8rem;
+    color:var(--blue);
+    font-weight: 700;
+  }
+ 
+  #hero-section .hero-container #right-container{
+    width: 100%;
+    position: relative;
+    /* border: 1px solid black; */
+  }
+
+  #right-container #hero-img{
+    width: 100%;
+    margin-top: 1rem;
+    position: relative;
+    
+  }
+/* First Section Ends here */
+
+/* Section Two Starts here */
+#course-feature{
+  background-color: var(--main-bg);
+  padding: 3rem 10px;
+}
+
+#course-feature h2{
+  font-size: 1.8rem;
+  
+}
+
+#course-feature #course-card{
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 3rem;
+}
+
+/* Section Two Ends here */
+
+/* Section Three starts here */
+
+ main #banner-two{
+    padding: 2rem 10px;
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+ 
+  #banner-two  #right-container{
+    width: 100%;
+    /* border: 1px solid black; */
+    text-align: center;
+    align-items: center;
+  }
+
+  #banner-two #right-container > div{
+    border-radius:10px ;
+    padding: 10px 20px;
+
+  }
+
+  #banner-two  #left-container{
+    width: 100%;
+    /* border: 1px solid black; */
+  }
+
+  #banner-two  #left-container img{
+    width: 100%;
+  }
+/* Section Three Ends here */
+
+/* Section Four Starts here */
+
+  #main-div #feature-container{
+    padding: 1.5rem 10px;
+    gap: 2rem;
+  }
+
+  #feature-container #feature-heading{
+    font-size: 1.8rem;
+  }
+
+  #feature-container #feature-cards{
+    /* border: 1px solid black; */
+    padding-left: 0;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .wrapper i{
+    display: none;
+  }
+
+/* Section Four Ends here */
+
+ 
+/* Section Six Starts here */
+
+  main #course-container{
+    padding: 1.5rem 10px;
+    /* border: 1px solid red; */
+  }
+  #course-container #course-header{
+    font-size: 1rem;
+    padding: 0rem ;
+  }
+  #course-header h2{
+    font-size: 2rem;
+  }
+  #course-header h6{
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+
+  #course-container > #course-cards{
+    /* border: 1px solid red; */
+    flex-direction: column;
+  }
+/* Section Six Ends here */
+
+
+ 
+/* Last Section starts here */
+
+main #news-latter{
+  padding: 1rem 0px;
+  /* border: 1px solid red; */
+}
+
+#news-latter #card{
+  width: 100%;
+  padding: 10px;
+}
+
+
+#card #content{
+  width: 100%;
+  /* border: 1px solid yellowgreen; */
+  flex-direction: column;
+}
+
+#content #left-container{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+#content #right-container{
+  width: 100%;
+  text-align: center;
+  padding: 0px;
+  /* border: 1px solid black; */
+}
+
+#content #right-container h2{
+  font-size: 2rem;
+  /* border: 1px solid black; */
+}
+
+#content #right-container h2:nth-child(2){
+  display: block;
+ }
+#content #right-container h2:nth-child(1){
+  display: none;
+ }
+
+#content #right-container h2 > span{
+ font-size:2.2rem ;
+ letter-spacing: 5px ;
+  /* letter-spacing: 10PX; */
+}
+
+#searchbar #input-box{
+  margin-top: 5px;
+  width: 100%;
+  /* border: 1px solid goldenrod; */
+ flex-direction: column;
+ gap: 10px;
+}
+
+#searchbar #input-box input{
+  width: 100%;
+}
+
+#searchbar #input-box button{
+  width: 50%;
+  padding: 8px;
+  margin: auto;
+
+}
+
+/* Last Section Ends here */
+
+
+}
+
+@media  screen and (min-width:481px) and (max-width: 1024px) {
+
+
+/* First Section Starts here */
+
+
+  #hero-section .hero-container{
+    padding: 2rem;
+    /* border: 1px solid black; */
+  }
+
+  #right-container #hero-img{
+   /* position: absolute; */
+   width: 100%;
+   bottom: 10px;
+   
+  }
+
+  #hero-section .hero-container #left-container h1{
+    /* position: relative; */
+    /* top: 0; */
+    font-size: 2rem;
+    color:var(--black);
+    font-weight: 700;
+  }
+  #hero-section .hero-container #left-container h6{
+     font-size: 1.29rem;
+  }
+
+  #hero-section .hero-container #left-container  p{
+    font-size: 0.89rem;
+    color: var(--black);
+    /* padding-top: 1rem; */
+    letter-spacing: 1px;
+    
+  }
+
+/* First Section Ends here */
+
+
+
+/* Section Two Starts here */
+  #course-feature{
+    background-color: var(--main-bg);
+    padding: 3rem 10px;
+  }
+
+  #course-feature #course-card{
+    gap: 2rem;
+  }
+
+  
+  #course-feature #course-card #card{
+    /* background-color: var(--white); */
+    /* color: var(--white); */
+    padding: 2rem 1rem;
+  }
+
+  #card .course-info h6{
+    font-size:1.5rem;
+    
+   }
+
+  #card .course-info a{
+    /* margin-top: 1rem; */
+    background-color: var(--blue);
+    outline: none;
+    border: none;
+    padding: 8px 11px;
+    font-size: 1rem;
+    font-weight:400;
+    color: var(--white);
+    border-radius: 5px;
+    margin: auto;
+    
+  }
+   
+/* Section Two Ends here */ 
+  
+/* Section Three starts here */
+
+  main #banner-two{
+    padding: 2rem;
+  }
+
+  #banner-two #right-container{
+    gap: 1.5rem;
+  }
+
+  #banner-two #right-container h1{
+    font-size: 1.8rem;
+   }
+   #banner-two #right-container h6{
+    /* font-size: 1.5rem; */
+    letter-spacing: 2px;
+   }
+
+   #banner-two #right-container > div{
+    font-size: 1.1rem;
+
+  }
+/* Section Three Ends here */
+
+ 
+/* Section Four Starts here */
+  .wrapper i{
+    display: none;
+  }
+/* Section Four Ends here */
+
+
+/* Section Six Starts here */
+  main #course-container{
+    padding: 1.5rem 10px;
+    /* border: 1px solid red; */
+  }
+
+  #course-container #course-header{
+    /* color: var(--white); */
+    padding: 0rem 2rem;
+    /* border: 1px solid red; */
+  }
+
+  #course-header h6{
+    font-size: 2rem;
+  }
+
+  #course-container > #course-cards{  
+    gap: 1rem;
+    margin-top: 2.8rem;
+    /* border: 1px solid; */
+  }
+
+  #course-cards > #card{
+    padding: 1.8rem 1rem ;
+    
+  }
+
+  #card .price-buy{
+    text-align: start;
+    align-items: start;
+    /* border: 1px solid red; */
+  }
+  #card .price{
+    gap: 5px;
+    /* border: 1px solid yellowgreen; */
+    text-align: start;
+  }
+/* Section Six Ends here */
+
+/* Last Section starts here */
+  main #news-latter{
+    padding: 5rem 10px;
+    /* border: 1px solid red; */
+  }
+
+  #news-latter #top-bg{
+    top:1rem;
+    right: 2rem;
+
+  }
+  #news-latter #bottom-bg{
+
+    bottom: 0;
+    left: 1.5rem;
+  }
+
+  #news-latter #card{
+    width: 80%;
+  }
+
+  #content #right-container h2{
+    font-size: 2.22rem;
+  }
+
+/* Last Section Ends here */
+   
+}
+
+
+
+
+
+

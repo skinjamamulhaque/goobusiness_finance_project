@@ -1,0 +1,280 @@
+/* Import Google font - Poppins */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+  --blue: #706FE5;
+  --font-red: #ED5765;
+  --btn-red: #F83A40;
+  --white: #FFFFFF;
+  --black: #171616;
+  --main-bg: #F1F1F1;
+}
+
+@media screen and (max-width:480px) {
+  #hero-section .hero-container{
+    flex-direction: column;
+    padding: 0px 10px;
+    /* border: 1px solid black; */
+    width: 100%;
+  }
+
+  #hero-section .hero-container #left-container{
+    /* border: 1px solid black; */
+    width: 100%;
+    position: relative;
+    text-align: center;
+    
+  }
+
+  #hero-section .hero-container #left-container h1{
+    
+    /* position: relative; */
+    /* top: 0; */
+    font-size: 1.8rem;
+    color:var(--blue);
+    font-weight: 700;
+  }
+ 
+
+  #hero-section .hero-container #right-container{
+    width: 100%;
+    position: relative;
+    /* border: 1px solid black; */
+  }
+
+  #right-container #hero-img{
+    width: 100%;
+    margin-top: 1rem;
+    position: relative;
+    
+  }
+
+  #main-div #feature-container{
+    padding: 1.5rem 10px;
+    gap: 2rem;
+  }
+
+  #feature-container #feature-heading{
+    font-size: 1.8rem;
+  }
+
+  #feature-container #feature-cards{
+    /* border: 1px solid black; */
+    padding-left: 0;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .wrapper i{
+    display: none;
+  }
+
+  #main-div #tech-icons{
+    padding: 2rem 10px ;
+  }
+
+  #tech-icons > h6{
+    font-size:2rem;
+    font-weight: bold;
+  }
+
+  #tech-icons #icons{
+    flex-direction: column;
+    gap: 2rem;
+  }
+  #tech-icons #icons img{
+    height: 70px;
+  }
+
+  #main-div #course-container{
+    padding: 1.5rem 10px;
+    /* border: 1px solid red; */
+  }
+  #course-container #course-header{
+    font-size: 1rem;
+    padding: 0rem ;
+  }
+  #course-header h2{
+    font-size: 2rem;
+  }
+  #course-header h6{
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+
+  #course-container > #course-cards{
+    /* border: 1px solid red; */
+    flex-direction: column;
+  }
+
+  #banner-two{
+    padding: 2rem 10px;
+  }
+  #banner-two > img{
+    width: 100%;
+  }
+
+  #banner-two > h6{
+    padding: 0px ;
+  }
+
+  #course-feature{
+    background-color: var(--main-bg);
+    padding: 3rem 10px;
+  }
+
+  #course-feature h2{
+    font-size: 1.8rem;
+    
+  }
+
+  #course-feature #course-card{
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 3rem;
+  }
+  #course-feature #course-card #card{
+    background-color: var(--blue);
+    color: var(--white);
+    
+  }
+
+  #course-feature #course-card #card img{
+    filter: brightness(0) invert(1);
+  }
+
+  #main-div #banner-three{
+    height: 200px;
+  }
+
+  #main-div #banner-four{
+    flex-direction: column-reverse;
+    padding: 3rem 10px;
+    gap: 1rem;
+  }
+
+  #main-div #banner-four #left-container{
+    width: 100%;
+    padding-left: 0px;
+    text-align: center;
+  }
+  #main-div #banner-four #right-container{
+    width: 100%;
+    /* border: 1px solid; */
+  }
+  #banner-four #right-container img{
+    width: 100%;
+  }
+}
+
+@media  screen and (min-width:481px) and (max-width: 820px) {
+
+  #hero-section .hero-container{
+    padding: 2rem;
+    /* border: 1px solid black; */
+  }
+
+  #right-container #hero-img{
+   /* position: absolute; */
+   width: 100%;
+   bottom: 10px;
+   
+  }
+
+  #hero-section .hero-container #left-container h1{
+    /* position: relative; */
+    /* top: 0; */
+    font-size: 2rem;
+    color:var(--black);
+    font-weight: 700;
+  }
+  #hero-section .hero-container #left-container h6{
+     font-size: 1.29rem;
+  }
+
+  #hero-section .hero-container #left-container > p{
+    font-size: 0.89rem;
+    color: var(--black);
+    /* padding-top: 1rem; */
+    letter-spacing: 1px;
+    
+  }
+
+  .wrapper i{
+    display: none;
+  }
+
+  #main-div #tech-icons{
+    padding: 2rem 10px ;
+  }
+
+  #tech-icons #icons img{
+    height: 70px;
+  }
+
+  #main-div #course-container{
+    padding: 1.5rem 10px;
+    /* border: 1px solid red; */
+  }
+
+
+
+  #course-container #course-header{
+    color: var(--white);
+    padding: 0rem 2rem;
+    /* border: 1px solid red; */
+  }
+
+  #course-header h6{
+    font-size: 1.2rem;
+  }
+
+  #course-container > #course-cards{  
+    gap: 1.5rem;
+    margin-top: 2.8rem;
+  }
+
+  #course-cards > #card{
+    padding: 1.8rem 1rem ;
+
+  }
+
+  #banner-two{
+    padding: 2rem;
+    /* border: 1px solid black; */
+  }
+
+  #banner-two > h6{
+    /* border: 1px solid; */
+    padding: 0px 3rem;
+  }
+
+  #course-feature{
+    background-color: var(--main-bg);
+    padding: 3rem 10px;
+  }
+
+  #course-feature #course-card{
+    gap: 2rem;
+  }
+
+  
+  #course-feature #course-card #card{
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 2rem 1rem;
+  }
+  #course-feature #course-card #card img{
+    filter: brightness(0) invert(1);
+  }
+
+  #main-div #banner-four{
+    padding: 2.5rem 1rem;
+    /* border: 1px solid red; */
+    
+  }
+   
+}
+

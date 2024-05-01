@@ -1,0 +1,542 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+  --blue: #706FE5;
+  --font-red: #ED5765;
+  --btn-red: #F83A40;
+  --white: #FFFFFF;
+  --black: #171616;
+  --main-bg: #F1F1F1;
+}
+
+*{
+  margin: 0;padding: 0; box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: Poppins;
+  overflow-x: hidden;
+  position: relative;
+  /* padding: 0px 50px; */
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+
+
+main #hero-section{
+  width: 100%;
+  max-height: 100%;
+  /* min-height: 80vh; */
+  position: relative;
+  background-color: var(--main-bg);
+ 
+  
+}
+
+#hero-section .hero-container{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid red; */
+  padding: 2rem 5rem;
+  
+}
+
+#hero-section .hero-container #left-container{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  z-index: 2;
+  
+}
+
+
+#hero-section .hero-container #left-container > h1{
+  font-size: 2rem;
+  color: var(--black);
+}
+
+#hero-section .hero-container #left-container > p{
+  font-size: 1rem;
+  color: var(--black);
+  letter-spacing: 1px;
+}
+
+#hero-section .hero-container #left-container > div{
+  font-size: 1rem;
+  color: var(--black);
+  display: flex;
+  gap: 1rem;
+
+}
+
+#left-container > div button:nth-child(1){
+  background-color: var(--blue);
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight:400;
+  color: var(--white);
+  border-radius: 5px;
+}
+#left-container > div button:nth-child(2){
+  /* background-color: var(--blue); */
+  outline:none ;
+  border: 0.5px solid var(--blue);
+  box-shadow: 2px 2px 2px var(--blue);
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight:400;
+  color: var(--black);
+  border-radius: 5px;
+}
+
+#hero-section .hero-container #right-container{
+  /* border: 1px solid black; */
+  width: 50%;
+  position: relative;
+}
+
+#right-container #hero-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* ........................................................................... */
+main #section2{
+  /* border: 1px solid red; */
+  width: 100%;
+  max-height: 100%;
+  /* min-height: 80vh; */
+  position: relative;
+  background-color: var(--main-bg);
+}
+
+#section2 .hero-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid red; */
+  padding: 2rem 5rem;
+  
+}
+
+#section2 .hero-container #left-container{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  z-index: 2;
+  padding: 1rem 5rem;
+}
+
+
+#section2 .hero-container #left-container > h1{
+  font-size: 2rem;
+  color: var(--black);
+}
+
+#section2 .hero-container #left-container > p{
+  font-size: 1.2rem;
+  color: var(--black);
+  letter-spacing: 1px;
+}
+
+
+
+#section2 .hero-container #right-container{
+  /* border: 1px solid black; */
+  width: 50%;
+  position: relative;
+  padding: 1rem 5rem;
+  text-align: right;
+  
+}
+
+#right-container #hero-img{
+  width: 85%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: 1rem;
+  
+}
+
+/* ........................................................................ */
+main #section3{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 2rem 5rem;
+  background-color: var(--main-bg);
+  /* border: 1px solid black; */
+}
+
+ h2{
+  text-align: center;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+
+#section3 .sec-2{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  /* border: 1px solid red; */
+}
+
+.form-div{
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  width: 50%;
+  height: 100%;
+  position: relative;
+  background-color: var(--white);
+  padding: 2rem 0px;
+  
+}
+
+
+.enquery-form{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  /* justify-content: center; */
+}
+.enquery-form > div{
+  padding: 0px 3.2rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+
+.enquery-form  label{
+  font-size: 1.3rem;
+  padding-bottom: 5px;
+  letter-spacing: 1px;
+  color: #4D4D4D;
+}
+
+.enquery-form  input{
+  height: 3rem;
+  /* border-radius: 5px; */
+  outline: 1px solid #4D4D4D;
+  border: none ;
+  padding: 5px; 
+  margin-bottom: 15px; 
+  font-size: 16px;
+}
+
+
+.enquery-form > :last-child{
+  /* border: 1px solid red; */
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.enquery-btn{
+  width: 25% ;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--blue);
+  color: white;
+  padding: 10px 60px ;
+  display: flex;
+  justify-content: center;
+   
+}
+
+.course-div{
+  width: 50%;
+  height: 100%;
+  position: relative;
+  /* border: 1px solid blue; */
+  /* padding-right: 50px; */
+}
+
+.course-dets{
+  /* width: 85%; */
+  /* border: 1px solid red; */
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 0px 0px 80px;
+  gap: 40px;
+}
+
+.course-highlight{
+  /* border: 1px solid red; */
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 40px;
+}
+
+.course-highlight > div{
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.course-highlight > div > img {
+  /* border: 1px solid black; */
+  height: 50px;
+  width: 50px;
+}
+
+.course-info > h2,p{
+ color: #4d4d4d;
+}
+
+.course-note{
+  font-weight: 600;
+}
+
+.course-heading{
+  font-size: 20px;
+  text-align: left;
+}
+
+/* ........................................................................ */
+main .section4{
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding: 2rem 5rem;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.section4-img{
+  height: 100%;
+  width: 50%;
+  /* border: 1px solid black; */
+}
+
+.section4-img > img{
+  /* height: 100%; */
+  width: 70%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.section4-dets{
+  width: 50%;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 1rem 1.5rem;
+}
+
+.emp-heading{
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.emp-para{
+  font-size: 1.1rem;
+  color: var(--white);
+}
+
+.sec4-agenda{
+  margin-top: 50px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  text-align: center;
+  background-color: #f5f7fa;
+}
+
+.agenda-heading{
+  font-size: 3.5rem;
+}
+
+.agenda-para{
+  margin-top:20px;
+  font-size: 2rem;
+  line-height: 2.2rem ;
+  
+}
+
+
+/* ........................................................................ */
+main #section5{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding: 2rem 5rem;
+  background-color: var(--main-bg);
+  /* border: 1px solid red; */
+}
+
+#section5 h6{
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+#section5 #sec5-dets{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  /* border: 1px solid black; */
+  display: flex;
+}
+
+#sec5-dets #left-container{
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid yellowgreen; */
+}
+
+#left-container img{
+  height: 100%;
+  width: 80%;
+  object-fit: cover;
+}
+#sec5-dets #right-container{
+  width: 50%;
+  height: 100%;
+  padding: 0px 2.5rem;
+  /* border: 1px solid blue; */
+
+}
+
+#right-container > div{
+  display: flex;
+  gap: 10px;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+
+
+/* ........................................................................ */
+
+main #section6{
+  height: 100%;
+  width: 100%;
+  padding: 2rem 5rem;
+  position: relative;
+  /* border: 1px solid red; */
+}
+
+#section6 h5{
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#section6 #tools-container{
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  position: relative;
+  gap: 1rem;
+}
+
+#tools-container #tools{
+  height: 250px;
+  width: 250px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  /* gap: 5px; */
+}
+
+#tools #tools-img {
+  width: 100%;
+  height: 70%;
+  /* border: 1px solid blue; */
+  text-align: center;
+}
+
+#tools-img img{
+  /* width: 80%; */
+  height: 80%;
+}
+
+#tools #tools-name{
+  width: 100%;
+  height: 30%;
+  /* border: 1px solid blue; */
+}
+
+#tools-name p{
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* ........................................................................ */
+
+main #section7{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding: 6rem 5rem;
+  /* border: 1px solid red; */
+  background-color: var(--main-bg);
+}
+
+#section7 h5{
+  /* border: 1px solid black; */
+  text-align: center;
+  font-size: 2.2rem;
+  padding-bottom: 1.5rem;
+}
+
+#section7 > div{
+  width: 100%;
+  text-align: center;
+  /* border: 1px solid red; */
+
+}
+
+#section7 > div button{
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  color: var(--white);
+  background-color: var(--blue);
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  border-radius: 5px;
+}

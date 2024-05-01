@@ -1,0 +1,162 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+  --blue: #706FE5;
+  --font-red: #ED5765;
+  --btn-red: #F83A40;
+  --white: #FFFFFF;
+  --black: #171616;
+  --main-bg: #F1F1F1;
+}
+
+*{
+  margin: 0;padding: 0; box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: Poppins;
+  overflow-x: hidden;
+  position: relative;
+  /* padding: 0px 50px; */
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+main #hero{
+  width: 100%;
+  height: 100%;
+  /* background-color: #171616; */
+  position: relative;
+  /* border: 1px solid black; */
+}
+
+#hero #bottom-img{
+  width: 100%;
+  height: 100%;
+  min-height: 120px;
+  object-fit:cover;
+  object-position: center;
+  /* border: 1px solid red; */
+}
+
+#bottom-img img{
+  width: 100%;
+  height: 100%;
+  object-fit:fill;
+}
+#hero #top-img{
+  width: 100%;
+  height: 40%;
+  /* max-width: 1600px; */
+  object-fit:cover;
+  /* object-position: center; */
+  position: absolute;
+  z-index: 2;
+  bottom: 5px;
+  right: 0;
+  /* border: 1px solid red; */
+}
+
+#top-img img{
+  width: 100%;
+  /* object-fit: cover; */
+  /* border: 1px solid red; */
+}
+
+#hero div{
+  /* position: relative; */
+  z-index: 2;
+  top: 0;
+  /* right: 0; */
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+#hero div #banner-img{
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  justify-content: end;
+  align-items: end;
+}
+
+#banner-img img{
+  width: 70%;
+  height: 100%;
+  text-align: right;
+}
+#hero div #banner-heading{
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#banner-heading h1{
+  color: var(--white);
+  font-size: 3rem;
+  line-height: 4.2rem;
+}
+
+#banner-heading h1:nth-child(2){
+  display: none;
+}
+
+#banner-heading p{
+  color: var(--white);
+  font-size: 2.5rem;
+  margin-top: 8px;
+}
+
+
+/* section two Starts here */
+main #dets{
+  height: 100%;
+  width: 100%;
+  padding: 2rem 5rem;
+  position: relative;
+  background-color: var(--main-bg);
+  /* border: 1px solid red; */
+}
+
+#dets #dets-heading{
+  text-align: center;
+}
+
+#dets-heading h2{
+  font-size: 2.5rem;
+}
+
+#dets-heading p{
+  margin-top: 1.5rem;
+  font-size: 1.3rem;
+}
+
+#dets #dets-info{
+  text-align: left;
+  padding: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 4rem;
+  /* border: 1px solid black; */
+}
+
+#dets-info #point p{
+  margin-top: 1.5rem;
+  font-size: 1.3rem;
+}
+/* section two Ends here */

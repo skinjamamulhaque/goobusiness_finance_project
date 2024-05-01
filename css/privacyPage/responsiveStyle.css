@@ -1,0 +1,83 @@
+/* Import Google font - Poppins */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+  --blue: #706FE5;
+  --font-red: #ED5765;
+  --btn-red: #F83A40;
+  --white: #FFFFFF;
+  --black: #171616;
+  --main-bg: #F1F1F1;
+}
+
+@media screen and (max-width:480px){
+
+  
+  #hero #top-img{
+    display: none;
+  }
+  #hero div #banner-img{
+    display: none;
+  }
+  #hero div #banner-heading{
+    width: 100%;
+    gap: 5px;
+    /* padding: 3rem 0px; */
+    /* border: 1px solid; */
+  }
+  #banner-heading h1{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+  #banner-heading h1:nth-child(1){
+    display: none;
+  }
+  #banner-heading h1:nth-child(2){
+    display: block;
+  }
+  #banner-heading p{
+    font-size: 1.2rem;
+  }
+
+  main #dets{
+    padding: 1rem 10px;
+  }
+
+  #dets #dets-heading{
+    padding: 0px ;
+  }
+
+  #dets-heading h2{
+    font-size: 1.5rem;
+  }
+
+  #dets #dets-info{
+    padding: 5px ;
+  }
+
+  #dets-info #point p{
+    font-size: 1.1rem;
+  }
+}
+
+@media  screen and (min-width:481px) and (max-width: 1024px){
+  #banner-heading h1{
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    
+  }
+  #banner-heading p{
+    font-size: 1.5rem;
+    margin-top: 2px;
+  }
+
+  main #dets{
+    padding: 1rem 1.2rem;
+  }
+
+  #dets #dets-heading{
+    padding: 0px ;
+  }
+}
