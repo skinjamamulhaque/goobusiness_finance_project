@@ -444,24 +444,6 @@ main #course-container{
   font-size: 1rem;
   /* margin-top: 1rem; */
 }
-/* #course-cards #card p{
-  font-size: 0.8rem;
-  margin-top: 1rem;
-} */
-
-#course-cards #card div{
-  /* margin-top: 1rem; */
-}
-
-/* #course-cards #card div button{
-  border: none;
-  background-color: var(--btn-red);
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 1rem;
-  font-weight: bold;
-  color: var(--white);
-} */
 
 #banner-two{
   
@@ -587,6 +569,10 @@ main #course-container{
   margin: auto;
 }
 
+#course-feature #course-card #card img:nth-child(2){
+  display: none;
+}
+
 #card .course-info h6{
  font-size:1.2rem;
  display: block;
@@ -607,6 +593,15 @@ main #course-container{
   border-radius: 5px;
   margin: auto;
   transition:all 0.3s ease;
+}
+
+
+#course-feature #course-card #card:hover img:nth-child(2){
+  display: block;
+  transition:all 0.3s ease;
+}
+#course-feature #course-card #card:hover img:nth-child(1){
+  display: none;
 }
 
 main #news-latter{
