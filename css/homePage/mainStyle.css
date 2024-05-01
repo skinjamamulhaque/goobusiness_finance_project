@@ -104,7 +104,7 @@ html,body{
   /* background-color: var(--blue); */
   outline: none;
   border: 1px solid var(--blue);
-  box-shadow: 2px 2px 2px var(--blue);
+  /* box-shadow: 2px 2px 2px var(--blue); */
   padding: 10px 15px;
   font-size: 1rem;
   font-weight:400;
@@ -314,7 +314,7 @@ main #course-container{
   height: 100%;
   width: 100%;
   position: relative;
-  padding: 2rem 5rem 10rem;
+  padding: 3rem 5rem;
   background-color: var(--main-bg);
   text-align: center;
   /* border: 1px solid; */
@@ -342,24 +342,29 @@ main #course-container{
 }
 
 #course-cards > #card{
-  
+  height: 100%;
   /* border: 1px solid black; */
   width: 300px;
   text-align: center;
   background-color: var(--white);
   padding: 1.8rem 1.5rem ;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 
 #card .review{
   margin: auto;
   width: 100%;
+  /* height: fit-content; */
   display: flex;
   justify-content:center;
   align-items: baseline;
   gap: 1rem;
   /* border: 1px solid red; */
+  /* margin-top: -100PX; */
 }
 
 .review .stars{
@@ -380,7 +385,7 @@ main #course-container{
   align-items: baseline;
   gap: 5px;
   /* border: 1px solid black; */
-  margin-bottom: -1.6rem;
+  /* margin-bottom: -1.6rem; */
 }
 
 #card .price-buy{
@@ -445,7 +450,7 @@ main #course-container{
 } */
 
 #course-cards #card div{
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
 }
 
 /* #course-cards #card div button{
