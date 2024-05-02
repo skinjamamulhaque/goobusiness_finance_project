@@ -368,7 +368,7 @@ html,body{
   height: 500px;
   /* width: 280px; */
   text-align: center;
-  background-color: var(--black);
+  background-color: var(--white);
   padding: 1.8rem 1.5rem ;
   border-radius: 5px;
 }
