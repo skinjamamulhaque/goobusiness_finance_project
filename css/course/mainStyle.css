@@ -6,7 +6,7 @@
   --blue: #706FE5;
   --font-red: #ED5765;
   --btn-red: #F83A40;
-  --white: #FFFFFF; 
+  --white: #FFFFFF;
   --black: #171616;
   --main-bg: #F1F1F1;
 }
@@ -368,7 +368,7 @@ html,body{
   height: 500px;
   /* width: 280px; */
   text-align: center;
-  background-color: var(--white);
+  background-color: var(--black);
   padding: 1.8rem 1.5rem ;
   border-radius: 5px;
 }
