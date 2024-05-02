@@ -121,7 +121,7 @@
 
   #course-container > #course-cards{
     /* border: 1px solid red; */
-    flex-direction: column;
+    /* flex-direction: column; */
     padding: 0px 0px 5rem;
   }
 
