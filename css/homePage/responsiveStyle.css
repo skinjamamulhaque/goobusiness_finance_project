@@ -238,7 +238,7 @@ main #news-latter{
 
 
   #hero-section .hero-container{
-    padding: 2rem;
+    padding: 2rem 5rem;
     /* border: 1px solid black; */
   }
 
@@ -252,7 +252,7 @@ main #news-latter{
   #hero-section .hero-container #left-container h1{
     /* position: relative; */
     /* top: 0; */
-    font-size: 2rem;
+    font-size: 1.89rem;
     color:var(--black);
     font-weight: 700;
   }
@@ -275,7 +275,7 @@ main #news-latter{
 /* Section Two Starts here */
   #course-feature{
     background-color: var(--main-bg);
-    padding: 3rem 10px;
+    padding: 3rem 5rem;
   }
 
   #course-feature #course-card{
@@ -313,23 +313,35 @@ main #news-latter{
 /* Section Three starts here */
 
   main #banner-two{
-    padding: 2rem;
+    padding: 2rem 5rem;
+    /* border: 1px solid black; */
   }
+
+  #banner-two #left-container{
+    /* border: 1px solid red; */
+    height: 100%;
+   }
+   #banner-two  #left-container img{
+    width: 100%;
+   }
 
   #banner-two #right-container{
     gap: 1.5rem;
+    /* border: 1px solid red; */
+    padding-left: 1rem;
   }
 
   #banner-two #right-container h1{
-    font-size: 1.8rem;
+    font-size: 1.7rem;
+    
    }
    #banner-two #right-container h6{
-    /* font-size: 1.5rem; */
+    font-size: 1.2rem;
     letter-spacing: 2px;
    }
 
    #banner-two #right-container > div{
-    font-size: 1.1rem;
+    font-size: 1rem;
 
   }
 /* Section Three Ends here */
