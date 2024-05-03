@@ -28,6 +28,8 @@ html,body{
   display: none;
 }
 
+
+/* section One Starts here  */
 #hero-section{
   width: 100%;
   max-height: 100%;
@@ -111,7 +113,10 @@ html,body{
   bottom: -2px;
   right: 0;
 }
+/* section One Ends here  */
 
+
+/* section Two Starts here  */
 #main-div #feature-container{
   height: 100%;
   width: 100%;
@@ -122,6 +127,7 @@ html,body{
   flex-direction: column;
   gap: 3rem;
   position: relative;
+  /* border: 1px solid red; */
 }
 
 #feature-container #feature-heading{
@@ -220,7 +226,8 @@ html,body{
   cursor: pointer;
   flex-direction: column;
   border-radius: 8px;
-  width: 300px;
+  /* width: 300px; */
+  width: 280px;
   position: relative;
   /* border: 2px solid black; */
   padding: 1rem ;
@@ -252,8 +259,10 @@ html,body{
   /* padding-top: 1rem; */
   font-size: 0.9rem;
 }
+/* section Two Ends here  */
 
 
+/* section Three Starts here  */
 #banner-one{
   height: 60%;
   width: 100%;
@@ -275,7 +284,10 @@ html,body{
   text-align: center;
   
 }
+/* section Three Ends here  */
 
+
+/* section Four Starts here  */
 #tech-icons > h6{
   font-size:2rem;
   color: var(--black);
@@ -294,21 +306,25 @@ html,body{
 #tech-icons #icons img{
   height: 100px;
 }
+/* section Four Ends here  */
 
 
+/* section Five Starts here  */
 #main-div #course-container{
   height: 100%;
   width: 100%;
   position: relative;
-  padding: 2rem 5rem 10rem;
+  padding: 6rem 0rem;
   background-color: var(--blue);
   text-align: center;
+  /* border: 1px solid red; */
 }
 
 #course-container #course-header{
   color: var(--white);
   padding: 0rem 10rem;
   /* border: 1px solid red; */
+  margin-bottom: 2rem;
 }
 
 #course-header h2{
@@ -325,8 +341,18 @@ html,body{
   letter-spacing: 0.5px;
 }
 
-#course-container > #course-cards{
+#course-container #course-cards{
+  display: flex;
+  gap: 2rem;
   /* border: 1px solid black; */
+  height: 100%;
+  width: 100%;
+  padding: 0px 5rem;
+  position: relative;
+}
+
+/* #course-cards  .carousel{
+  border: 1px solid black;
   height: 100%;
   width: 100%;
   display: flex;
@@ -334,21 +360,20 @@ html,body{
   justify-content: center;
   gap: 2rem;
   margin-top: 2.8rem;
-}
+} */
 
-#course-cards > #card{
+#course-cards .carousel > .card{
   /* border: 1px solid black; */
-  width: 300px;
+  width: 350px; 
   height: 500px;
-  /* max-height: 500px; */
+  /* width: 280px; */
   text-align: center;
   background-color: var(--white);
   padding: 1.8rem 1.5rem ;
-  /* padding-top: 0; */
   border-radius: 5px;
 }
 
-#course-cards #card #course-banner{
+.carousel .card #course-banner{
   width: 100%;
   /* border: 1px solid red; */
 }
@@ -359,23 +384,23 @@ html,body{
   width: 100%;
 }
 
-#course-cards #card h6{
+.carousel .card h6{
   font-size: 1rem;
   margin-top: 1rem;
   /* border: 1px solid yellowgreen; */
 }
-#course-cards #card p{
+.carousel .card p{
   font-size: 0.8rem;
   margin-top: 1rem;
   /* border: 1px solid green; */
 }
 
-#course-cards #card div{
+.carousel .card div{
   margin-top: 1.9rem;
   /* border: 1px solid blue; */
 }
 
-#course-cards #card div button{
+.carousel .card div button{
   border: none;
   background-color: var(--btn-red);
   padding: 10px 20px;
@@ -384,7 +409,10 @@ html,body{
   font-weight: bold;
   color: var(--white);
 }
+/* section Five Ends here  */
 
+
+/* section Six Starts here  */
 #banner-two{
   height:100%;
   width: 100%;
@@ -397,6 +425,7 @@ html,body{
   margin: auto;
   width: 50%;
 }
+
 #banner-two > h6{
   margin: auto;
   margin-top: 1rem;
@@ -404,7 +433,10 @@ html,body{
   /* border: 1px solid; */
   padding: 0px 8rem;
 }
+/* section Six Ends here  */
 
+
+/* section Seven Starts here  */
 #course-feature{
   height: 100%;
   width: 100%;
@@ -444,12 +476,12 @@ html,body{
   width: 60px;
 }
 
-
 #course-feature #course-card #card h6{
   font-size: 1rem;
   line-height: 1.2rem;
   margin-top: 1rem;
 }
+
 #course-feature #course-card #card p{
   margin-top: 1rem;
   font-size: 0.8rem;
@@ -458,11 +490,15 @@ html,body{
 #course-feature #course-card #card:hover img{
   filter: brightness(0) invert(1);
 }
+
 #course-feature #course-card #card:hover {
   background-color: var(--blue);
   color: var(--white);
 }
+/* section Seven Ends here  */
 
+
+/* section Eight Starts here  */
 #main-div #banner-three{
   /* background-image: url({/Images/cover3.png}); */
   height: 300px;
@@ -475,7 +511,11 @@ html,body{
   width: 100%;
   height: 100%;
 }
+/* section Eight Ends here  */
 
+
+
+/* section Last Starts here  */
 #main-div #banner-four{
   height: 100%;
   width: 100%;
@@ -495,7 +535,6 @@ html,body{
   position: relative;
   
 }
-
 
 #banner-four #left-container h6{
   font-size: 1rem;
@@ -521,3 +560,4 @@ html,body{
 #banner-four #right-container img{
   width: 80%;
 }
+/* section Last Ends here  */

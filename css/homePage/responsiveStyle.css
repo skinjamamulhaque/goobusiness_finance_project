@@ -74,6 +74,10 @@
   gap: 3rem;
 }
 
+#course-feature #course-card #card{
+  width: 350px;
+}
+
 /* Section Two Ends here */
 
 /* Section Three starts here */
@@ -120,7 +124,7 @@
 
   #feature-container #feature-cards{
     /* border: 1px solid black; */
-    padding-left: 0;
+    padding-left: 1rem;
     justify-content: center;
     text-align: center;
   }
@@ -153,6 +157,11 @@
   #course-container > #course-cards{
     /* border: 1px solid red; */
     flex-direction: column;
+  }
+
+  #course-cards > #card{
+    width: 350px;
+    filter: drop-shadow(1px 12px 10px #cdcbcb);
   }
 /* Section Six Ends here */
 
@@ -238,7 +247,7 @@ main #news-latter{
 
 
   #hero-section .hero-container{
-    padding: 2rem;
+    padding: 2rem 5rem;
     /* border: 1px solid black; */
   }
 
@@ -252,7 +261,7 @@ main #news-latter{
   #hero-section .hero-container #left-container h1{
     /* position: relative; */
     /* top: 0; */
-    font-size: 2rem;
+    font-size: 1.89rem;
     color:var(--black);
     font-weight: 700;
   }
@@ -275,7 +284,7 @@ main #news-latter{
 /* Section Two Starts here */
   #course-feature{
     background-color: var(--main-bg);
-    padding: 3rem 10px;
+    padding: 3rem 5rem;
   }
 
   #course-feature #course-card{
@@ -284,7 +293,8 @@ main #news-latter{
 
   
   #course-feature #course-card #card{
-    /* background-color: var(--white); */
+    /* width: 350px; */
+    /* background-color: var(--black); */
     /* color: var(--white); */
     padding: 2rem 1rem;
   }
@@ -313,23 +323,35 @@ main #news-latter{
 /* Section Three starts here */
 
   main #banner-two{
-    padding: 2rem;
+    padding: 2rem 5rem;
+    /* border: 1px solid black; */
   }
+
+  #banner-two #left-container{
+    /* border: 1px solid red; */
+    height: 100%;
+   }
+   #banner-two  #left-container img{
+    width: 100%;
+   }
 
   #banner-two #right-container{
     gap: 1.5rem;
+    /* border: 1px solid red; */
+    padding-left: 1rem;
   }
 
   #banner-two #right-container h1{
-    font-size: 1.8rem;
+    font-size: 1.7rem;
+    
    }
    #banner-two #right-container h6{
-    /* font-size: 1.5rem; */
+    font-size: 1.2rem;
     letter-spacing: 2px;
    }
 
    #banner-two #right-container > div{
-    font-size: 1.1rem;
+    font-size: 1rem;
 
   }
 /* Section Three Ends here */
@@ -366,6 +388,7 @@ main #news-latter{
 
   #course-cards > #card{
     padding: 1.8rem 1rem ;
+    filter: drop-shadow(1px 8px 8px #cdcbcb);
     
   }
 

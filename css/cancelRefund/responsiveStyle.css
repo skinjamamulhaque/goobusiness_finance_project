@@ -24,6 +24,7 @@
   #hero div #banner-heading{
     width: 100%;
     gap: 5px;
+    left: 0;
     /* padding: 3rem 0px; */
     /* border: 1px solid; */
   }
@@ -62,6 +63,7 @@
   #banner-heading h1{
     font-size: 1.8rem;
     line-height: 2.1rem;
+
     
   }
   #banner-heading p{

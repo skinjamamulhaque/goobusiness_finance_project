@@ -28,8 +28,6 @@ html,body{
   display: none;
 }
 
-
-
 main #hero-section{
   width: 100%;
   max-height: 100%;
@@ -88,7 +86,7 @@ main #hero-section{
   border: none;
   padding: 10px 15px;
   font-size: 1rem;
-  font-weight:400;
+  font-weight:bolder;
   color: var(--white);
   border-radius: 5px;
 }
@@ -99,7 +97,7 @@ main #hero-section{
   /* box-shadow: 2px 2px 2px var(--blue); */
   padding: 10px 15px;
   font-size: 1rem;
-  font-weight:400;
+  font-weight:bolder;
   color: var(--black);
   border-radius: 5px;
 }
@@ -213,7 +211,7 @@ main #section3{
   position: relative;
   background-color: var(--white);
   padding: 2rem 0px;
-  
+  filter: drop-shadow(1px 8px 8px #cdcbcb);
 }
 
 
@@ -222,6 +220,7 @@ main #section3{
   width: 100%;
   display: flex;
   flex-direction: column;
+  
   /* border: 1px solid red; */
   /* justify-content: center; */
 }
@@ -261,6 +260,7 @@ main #section3{
 .enquery-btn{
   width: 25% ;
   font-size: 20px;
+  font-weight: bolder;
   border: none;
   border-radius: 5px;
   background-color: var(--blue);
@@ -348,9 +348,11 @@ main .section4{
 
 .section4-img > img{
   /* height: 100%; */
+  /* border: 1px solid red; */
   width: 70%;
   object-fit: cover;
   object-position: center;
+  /* filter: drop-shadow(1px 8px 8px #cdcbcb); */
 }
 
 .section4-dets{
@@ -540,6 +542,7 @@ main #section7{
   color: var(--white);
   background-color: var(--blue);
   font-size: 1.2rem;
+  font-weight: bolder;
   text-transform: capitalize;
   border-radius: 5px;
 }
