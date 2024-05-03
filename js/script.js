@@ -42,24 +42,24 @@ arrowBtns.forEach(btn => {
     });
 });
 
-// const dragStart = (e) => {
-//     isDragging = true;
-//     creditcarousel.classList.add("dragging");
-//     // Records the initial cursor and scroll position of the creditcarousel
-//     startX = e.pageX;
-//     startScrollLeft = creditcarousel.scrollLeft;
-// }
+const dragStart = (e) => {
+    isDragging = true;
+    creditcarousel.classList.add("dragging");
+    // Records the initial cursor and scroll position of the creditcarousel
+    startX = e.pageX;
+    startScrollLeft = creditcarousel.scrollLeft;
+}
 
-// const dragging = (e) => {
-//     if(!isDragging) return; // if isDragging is false return from here
-//     // Updates the scroll position of the creditcarousel based on the cursor movement
-//     creditcarousel.scrollLeft = startScrollLeft - (e.pageX - startX);
-// }
+const dragging = (e) => {
+    if(!isDragging) return; // if isDragging is false return from here
+    // Updates the scroll position of the creditcarousel based on the cursor movement
+    creditcarousel.scrollLeft = startScrollLeft - (e.pageX - startX);
+}
 
-// const dragStop = () => {
-//     isDragging = false;
-//     creditcarousel.classList.remove("dragging");
-// }
+const dragStop = () => {
+    isDragging = false;
+    creditcarousel.classList.remove("dragging");
+}
 
 let infiniteScroll = () => {
     // If the creditcarousel is at the beginning, scroll to the end
@@ -76,23 +76,23 @@ let infiniteScroll = () => {
     }
 
     // Clear existing timeout & start autoplay if mouse is not hovering over creditcarousel
-    // clearTimeout(timeoutId);
-    // if(!wrapper.matches(":hover")) autoPlay();
+    clearTimeout(timeoutId);
+    if(!wrapper.matches(":hover")) autoPlay();
 }
 
-// const autoPlay = () => {
-//     if(window.innerWidth < 800 || !isAutoPlay) return; // Return if window is smaller than 800 or isAutoPlay is false
-//     // Autoplay the creditcarousel after every 2500 ms
-//     timeoutId = setTimeout(() => creditcarousel.scrollLeft += firstCardWidth, 2500);
-// }
-// autoPlay();
+const autoPlay = () => {
+    if(window.innerWidth < 800 || !isAutoPlay) return; // Return if window is smaller than 800 or isAutoPlay is false
+    // Autoplay the creditcarousel after every 2500 ms
+    timeoutId = setTimeout(() => creditcarousel.scrollLeft += firstCardWidth, 2500);
+}
+autoPlay();
 
-// creditcarousel.addEventListener("mousedown", dragStart);
-// creditcarousel.addEventListener("mousemove", dragging);
-// document.addEventListener("mouseup", dragStop);
+creditcarousel.addEventListener("mousedown", dragStart);
+creditcarousel.addEventListener("mousemove", dragging);
+document.addEventListener("mouseup", dragStop);
 creditcarousel.addEventListener("scroll", infiniteScroll);
-// wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
-// wrapper.addEventListener("mouseleave", autoPlay);
+wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
+wrapper.addEventListener("mouseleave", autoPlay);
 
 
 }

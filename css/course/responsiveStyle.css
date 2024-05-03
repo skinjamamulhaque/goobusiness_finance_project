@@ -73,7 +73,7 @@
 
   #feature-container #feature-cards{
     /* border: 1px solid black; */
-    padding-left: 0;
+    padding: 0;
     justify-content: center;
     text-align: center;
   }
@@ -92,6 +92,12 @@
     font-size:2rem;
     font-weight: bold;
   }
+
+  /* #tech-icons #icons{
+    width: fit-content;
+    height: 100%;
+    border: 1px solid red;
+  } */
 
   #tech-icons #icons{
     gap: 2rem;
@@ -127,6 +133,10 @@
 
   #course-cards .carousel > .card{
     width: 350px; 
+  }
+
+  .course-wrapper i{
+    display: none;
   }
 /* section Five Ends here  */
 
@@ -261,10 +271,12 @@
   padding-left: 5rem;
   border: 1px solid black;
   } */
+
   .wrapper i{
     display: none;
   }
-/* section Two Ends here  */
+  
+ /* section Two Ends here   */
 
 
 /* section Four Starts here  */
@@ -282,7 +294,7 @@
 
 /* section Five Starts here  */
   #main-div #course-container{
-    padding: 1.5rem 0px 1.5rem 5rem;
+    padding: 1.5rem 5rem;
     /* border: 1px solid red; */
   }
 
@@ -308,6 +320,11 @@
     height: 500px;
     /* border: 1px solid black; */
   }
+
+  .course-wrapper i{
+    display: none;
+  }
+/* se
 /* section Five Ends here  */
 
 

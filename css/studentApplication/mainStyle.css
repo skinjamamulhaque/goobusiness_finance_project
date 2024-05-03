@@ -28,6 +28,8 @@ html,body{
   display: none;
 }
 
+
+
 main #hero-section{
   width: 100%;
   max-height: 100%;
@@ -211,7 +213,7 @@ main #section3{
   position: relative;
   background-color: var(--white);
   padding: 2rem 0px;
-  filter: drop-shadow(1px 8px 8px #cdcbcb);
+  
 }
 
 
@@ -220,7 +222,6 @@ main #section3{
   width: 100%;
   display: flex;
   flex-direction: column;
-  
   /* border: 1px solid red; */
   /* justify-content: center; */
 }
@@ -348,11 +349,9 @@ main .section4{
 
 .section4-img > img{
   /* height: 100%; */
-  /* border: 1px solid red; */
   width: 70%;
   object-fit: cover;
   object-position: center;
-  /* filter: drop-shadow(1px 8px 8px #cdcbcb); */
 }
 
 .section4-dets{
@@ -476,37 +475,42 @@ main #section6{
   display: flex;
   position: relative;
   gap: 1rem;
+
 }
 
 #tools-container #tools{
-  height: 250px;
+  height: 150px;
   width: 250px;
   /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
-  /* gap: 5px; */
+  justify-content: space-around;
+  gap: 1rem;
 }
 
 #tools #tools-img {
   width: 100%;
-  height: 70%;
+  height: 50%;
   /* border: 1px solid blue; */
   text-align: center;
 }
 
 #tools-img img{
   /* width: 80%; */
-  height: 80%;
+  height: 100%;
 }
 
 #tools #tools-name{
   width: 100%;
-  height: 30%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   /* border: 1px solid blue; */
 }
 
 #tools-name p{
-  font-size: 1rem;
+  /* font-size: 1rem; */
   text-align: center;
 }
 

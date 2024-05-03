@@ -74,10 +74,6 @@
   gap: 3rem;
 }
 
-#course-feature #course-card #card{
-  width: 350px;
-}
-
 /* Section Two Ends here */
 
 /* Section Three starts here */
@@ -124,7 +120,7 @@
 
   #feature-container #feature-cards{
     /* border: 1px solid black; */
-    padding-left: 1rem;
+    padding-left: 0;
     justify-content: center;
     text-align: center;
   }
@@ -157,11 +153,6 @@
   #course-container > #course-cards{
     /* border: 1px solid red; */
     flex-direction: column;
-  }
-
-  #course-cards > #card{
-    width: 350px;
-    filter: drop-shadow(1px 12px 10px #cdcbcb);
   }
 /* Section Six Ends here */
 
@@ -293,8 +284,7 @@ main #news-latter{
 
   
   #course-feature #course-card #card{
-    /* width: 350px; */
-    /* background-color: var(--black); */
+    /* background-color: var(--white); */
     /* color: var(--white); */
     padding: 2rem 1rem;
   }
@@ -388,7 +378,6 @@ main #news-latter{
 
   #course-cards > #card{
     padding: 1.8rem 1rem ;
-    filter: drop-shadow(1px 8px 8px #cdcbcb);
     
   }
 
