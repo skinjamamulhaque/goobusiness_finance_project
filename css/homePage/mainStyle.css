@@ -355,11 +355,11 @@ main #feature-container{
 }
 
 .wrapper i:first-child{
-  left: -50px;
+  left: -60px;
   z-index: 2;
 }
 .wrapper i:last-child{
-  right: -50px;
+  right: -60px;
   z-index: 2;
 }
 .wrapper .carousel{
