@@ -1,5 +1,5 @@
-/* Import Google font - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Import Google font - Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
 
 
 :root{
@@ -38,11 +38,17 @@ html,body{
   main #cards-container{
     padding: 2rem 1rem;
     justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
   }
 
   #cards-container #cards{
     width: 300px;
     height: 320px;
+  }
+
+  main #heading{
+    text-align: center;
+    font-size: 1.8rem;
   }
 }
 
@@ -51,7 +57,7 @@ html,body{
 
 @media  screen and (min-width:481px) and (max-width: 1024px){
   main #cards-container{
-    padding: 2rem 6rem;
+    padding: 2rem 5rem;
   }
 
   #course-navbar #Course-items{
@@ -60,5 +66,9 @@ html,body{
 
   #course-navbar #course-searchbar{
     width: 30%;
+  }
+
+  #cards-container #cards{
+    width:280px;
   }
 }
