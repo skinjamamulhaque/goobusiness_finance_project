@@ -18,3 +18,11 @@ arrowBtns.forEach(btn => {
     });
 });
 
+
+// let isDragging = flase;
+const dragging = (e) => {
+    console.log(e.pageX)
+    carousel.scrollLeft = e.pageX;
+}
+
+carousel.addEventListener("mousemove", dragging)
