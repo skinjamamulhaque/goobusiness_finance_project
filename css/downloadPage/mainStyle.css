@@ -1,0 +1,139 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+  --blue: #706FE5;
+  --font-red: #ED5765;
+  --btn-red: #F83A40;
+  --white: #FFFFFF;
+  --black: #171616;
+  --main-bg: #F1F1F1;
+}
+
+*{
+  margin: 0;padding: 0; box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: Poppins;
+  overflow-x: hidden;
+  position: relative;
+  padding: 0px;
+  background-color: var(--main-bg);
+}
+
+header #course-navbar{
+  width: 100%;
+  height: 6rem;
+  padding: 0px 3rem;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  gap: 2rem;
+  background-color: var(--blue);
+}
+
+#course-navbar #Course-items{
+  display: flex;
+  /* border: 1px solid blue; */
+  /* width: 60%; */
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#course-navbar #Course-items ul{
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: auto;
+  color: var(--white);
+}
+
+#course-navbar #course-searchbar{
+  /* width: 30%; */
+  height: 40%;
+  padding: 0px 1rem;
+  /* border: 1px solid yellowgreen; */
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+  justify-content: space-between;
+  filter: drop-shadow( 0px 4px 4px 0px #00000040);
+}
+
+#course-searchbar input{
+  width: 90%;
+  height: 100%;
+  padding: 1rem;
+  border: none;
+  outline: none;
+}
+
+#course-searchbar i{
+  cursor: pointer;
+}
+
+main{
+  padding: 2rem 0px;
+}
+main #heading{
+  text-align: center;
+}
+main #cards-container{
+  height: 100%;
+  width: 100%;
+  /* border: 1px solid red; */
+  padding: 2rem 7rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+
+#cards-container #cards{
+  width: 250px;
+  height: 300px;
+  /* border: 1px solid black; */
+  display: grid;
+  place-items: center;
+  filter: drop-shadow(0px 4px 4px 0px #00000040) ;
+  background-color: var(--white);
+  border-radius: 8px;
+}
+
+#card{
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+#card img{
+  height: 100px;
+}
+
+#card h2{
+  font-size: 1.2rem;
+  font-weight:800 ;
+  
+}
+
+#card a{
+  width:200px ;
+  padding: 5px 20px;
+  background-color: var(--blue);
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--white);
+  text-transform: capitalize;
+  text-align: center;
+}
+

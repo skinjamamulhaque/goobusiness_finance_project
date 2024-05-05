@@ -327,7 +327,7 @@ main #feature-container{
   /* border: 1px solid black; */
   height: 100%;
   width: 100%;
-  padding-left: 5rem;
+  padding: 5rem;
   position: relative;
 }
 
@@ -355,11 +355,11 @@ main #feature-container{
 }
 
 .wrapper i:first-child{
-  left: -22px;
+  left: -60px;
   z-index: 2;
 }
 .wrapper i:last-child{
-  right: 22px;
+  right: -60px;
   z-index: 2;
 }
 .wrapper .carousel{
@@ -391,7 +391,8 @@ main #feature-container{
   height: 400px;
   list-style: none;
   background: #fff;
-  cursor: pointer;
+  cursor: grab;
+  user-select: none;
   flex-direction: column;
   gap: 1rem;
   justify-content: space-between;
@@ -401,7 +402,8 @@ main #feature-container{
   padding: 2rem ;
   background-color: var(--white);
   border: none;
-  /* border-radius: 6px; */
+  border-radius: 6px;
+   /* border: 1px solid red; */
 }
 
 .carousel .card .img {

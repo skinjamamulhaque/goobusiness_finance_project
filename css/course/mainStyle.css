@@ -143,10 +143,10 @@ html,body{
 #feature-container #feature-cards{
   display: flex;
   gap: 2rem;
-  /* border: 1px solid black; */
+  /* border: 1px solid white; */
   height: 100%;
   width: 100%;
-  padding-left: 5rem;
+  padding: 5rem;
   position: relative;
 }
 
@@ -175,12 +175,12 @@ html,body{
 }
 
 .wrapper i:first-child{
-  left: -22px;
+  left: -60px;
   z-index: 2;
 }
 
 .wrapper i:last-child{
-  right: 22px;
+  right: -60px;
   z-index: 2;
 }
 
@@ -205,20 +205,19 @@ html,body{
 .carousel.no-transition {
   scroll-behavior: auto;
 }
-/* .carousel.dragging {
+ .carousel.dragging {
   scroll-snap-type: none;
   scroll-behavior: auto;
-} */
-/* .carousel.dragging .card {
+} 
+ .carousel.dragging .card {
   cursor: grab;
   user-select: none;
-} */
+} 
 
 .carousel .card {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
   scroll-snap-align: start;
   height: 342px;
   list-style: none;
@@ -238,17 +237,20 @@ html,body{
 .carousel .card .img {
   /* border: 1px solid red; */
   height: 100px;
-  width: 100px;
-  /* object-fit: fill;
-  object-position: center;
-  filter: brightness(0) invert(0); */
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+  /* filter: brightness(0) invert(0); */
+   overflow: hidden;
 } 
 .card .img img {
   /* border: 1px solid red; */
   height: 100px;
+  /* width: 200px; */
   object-fit: fill;
   object-position: center;
   filter: brightness(0) invert(0);
+ 
 }
 .carousel .card h2 {
   /* border: 1px solid green; */
@@ -296,6 +298,7 @@ html,body{
 
 #tech-icons #icons{
   margin-top: 2rem;
+  width: 100%;
   /* border: 1px solid ; */
   display: flex;
   justify-content: space-around;
@@ -362,18 +365,72 @@ html,body{
   margin-top: 2.8rem;
 } */
 
-#course-cards .carousel > .card{
+
+.course-wrapper {
+  /* max-width: 1100px; */
+  width: 100%;
+  position: relative;
+  /* border: 1px solid black; */
+}
+.course-wrapper i {
+  /* display: none;  if new card added just delete this line, two button will be visiable for horizontal scroll */
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  position: absolute;
+  top: 40%;
+  /* left: 0; */
+  /* transform: translateY(-50%); */
+  text-align: center;
+  line-height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+  transition: transform 0.1s linear;
+}
+
+.course-wrapper i:first-child{
+  left: -60px;
+  z-index: 2;
+}
+
+.course-wrapper i:last-child{
+  right: -60px;
+  z-index: 2;
+}
+
+.course-wrapper .course-carousel{
+  height: 100%;
+  /* width: 1200px; */
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: auto;
+  overflow: hidden;
+  scroll-snap-type: x mandatory;
+  gap: 1rem;
+  border-radius: 8px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  /* border: 1px solid red; */
+}
+
+#course-cards .course-carousel > .card{
   /* border: 1px solid black; */
   width: 350px; 
   height: 500px;
+  list-style: none;
   /* width: 280px; */
   text-align: center;
   background-color: var(--white);
   padding: 1.8rem 1.5rem ;
   border-radius: 5px;
+  /* overflow-x: scroll; */
+  user-select: none;
 }
 
-.carousel .card #course-banner{
+.course-carousel .card #course-banner{
   width: 100%;
   /* border: 1px solid red; */
 }
@@ -384,23 +441,23 @@ html,body{
   width: 100%;
 }
 
-.carousel .card h6{
+.course-carousel .card h6{
   font-size: 1rem;
   margin-top: 1rem;
   /* border: 1px solid yellowgreen; */
 }
-.carousel .card p{
+.course-carousel .card p{
   font-size: 0.8rem;
   margin-top: 1rem;
   /* border: 1px solid green; */
 }
 
-.carousel .card div{
+.course-carousel .card div{
   margin-top: 1.9rem;
   /* border: 1px solid blue; */
 }
 
-.carousel .card div button{
+.course-carousel .card div button{
   border: none;
   background-color: var(--btn-red);
   padding: 10px 20px;
